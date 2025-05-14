@@ -1,0 +1,125 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGWzrkvfgzTS1E=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Requirements",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGWzrD/VwyxK6c=",
+					"_parent": {
+						"$ref": "AAAAAAGWzrkvfgzTS1E="
+					},
+					"name": "UseCaseDiagram"
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Analysis",
+			"ownedElements": [
+				{
+					"_type": "UMLCollaboration",
+					"_id": "AAAAAAGWzrFosgy1Cwg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Collaboration1",
+					"ownedElements": [
+						{
+							"_type": "UMLInteraction",
+							"_id": "AAAAAAGWzrFosgy23Mk=",
+							"_parent": {
+								"$ref": "AAAAAAGWzrFosgy1Cwg="
+							},
+							"name": "Interaction1",
+							"ownedElements": [
+								{
+									"_type": "UMLCommunicationDiagram",
+									"_id": "AAAAAAGWzrFosgy3F0I=",
+									"_parent": {
+										"$ref": "AAAAAAGWzrFosgy23Mk="
+									},
+									"name": "CommunicationDiagram1",
+									"ownedViews": [
+										{
+											"_type": "UMLFrameView",
+											"_id": "AAAAAAGWzrFosgy4aiM=",
+											"_parent": {
+												"$ref": "AAAAAAGWzrFosgy3F0I="
+											},
+											"model": {
+												"$ref": "AAAAAAGWzrFosgy3F0I="
+											},
+											"subViews": [
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWzrFosgy51CE=",
+													"_parent": {
+														"$ref": "AAAAAAGWzrFosgy4aiM="
+													},
+													"font": "Arial;13;0",
+													"parentStyle": true,
+													"left": 32.72998046875,
+													"top": 13,
+													"width": 146.6689453125,
+													"height": 13,
+													"text": "CommunicationDiagram1"
+												},
+												{
+													"_type": "LabelView",
+													"_id": "AAAAAAGWzrFosgy6tVE=",
+													"_parent": {
+														"$ref": "AAAAAAGWzrFosgy4aiM="
+													},
+													"font": "Arial;13;1",
+													"parentStyle": true,
+													"left": 13,
+													"top": 13,
+													"width": 13.72998046875,
+													"height": 13,
+													"text": "sd"
+												}
+											],
+											"font": "Arial;13;0",
+											"parentStyle": false,
+											"left": 8,
+											"top": 8,
+											"width": 692,
+											"height": 592,
+											"nameLabel": {
+												"$ref": "AAAAAAGWzrFosgy51CE="
+											},
+											"frameTypeLabel": {
+												"$ref": "AAAAAAGWzrFosgy6tVE="
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAGWzsDcnp0Y9Wc=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "AnalysisClassDiagram"
+				}
+			]
+		}
+	]
+}
