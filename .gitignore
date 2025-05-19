@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# Irrelevant submission only files
+output.txt
+log_output.txt
+*.pdf
