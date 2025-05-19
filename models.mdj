@@ -7941,7 +7941,7 @@
 							"left": 64,
 							"top": 304,
 							"width": 101.18408203125,
-							"height": 80,
+							"height": 73,
 							"nameCompartment": {
 								"$ref": "AAAAAAGW3vCNkQUlyDY="
 							},
@@ -17200,7 +17200,7 @@
 											"top": 132,
 											"width": 149.484375,
 											"height": 13,
-											"text": "+clickSignUpButton()",
+											"text": "+input()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -17218,7 +17218,7 @@
 											"top": 147,
 											"width": 149.484375,
 											"height": 13,
-											"text": "+displaySignUpSuccess()",
+											"text": "+displaySignUpInfo()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -18130,7 +18130,7 @@
 											"top": 132,
 											"width": 138.6552734375,
 											"height": 13,
-											"text": "+clickLogInButton()",
+											"text": "+input()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -18148,7 +18148,7 @@
 											"top": 147,
 											"width": 138.6552734375,
 											"height": 13,
-											"text": "+displayLoginSuccess()",
+											"text": "+displayLogInInfo()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -19058,7 +19058,25 @@
 											"top": 132,
 											"width": 126.46142578125,
 											"height": 13,
-											"text": "+clickLogOutButton()",
+											"text": "+input()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAGW54tf0/XvJb8=",
+											"_parent": {
+												"$ref": "AAAAAAGW3t846tC6xww="
+											},
+											"model": {
+												"$ref": "AAAAAAGW53go1tc5TPM="
+											},
+											"font": "Arial;13;0",
+											"parentStyle": true,
+											"left": 69,
+											"top": 147,
+											"width": 126.46142578125,
+											"height": 13,
+											"text": "+displayLogOutInfo()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -19067,7 +19085,7 @@
 									"left": 64,
 									"top": 112,
 									"width": 136.46142578125,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -19110,7 +19128,7 @@
 							"left": 64,
 							"top": 64,
 							"width": 135.46142578125,
-							"height": 86,
+							"height": 101,
 							"nameCompartment": {
 								"$ref": "AAAAAAGW3t846tC0Gt0="
 							},
@@ -20905,7 +20923,7 @@
 											"top": 132,
 											"width": 134.30712890625,
 											"height": 13,
-											"text": "+clickRentBikeButton()",
+											"text": "+input()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -20923,7 +20941,7 @@
 											"top": 147,
 											"width": 134.30712890625,
 											"height": 13,
-											"text": "+displayRentSuccess()",
+											"text": "+displayRentInfo()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -21609,7 +21627,7 @@
 											"top": 132,
 											"width": 155.25439453125,
 											"height": 13,
-											"text": "+clickRegisterBikeButton()",
+											"text": "+input()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -21627,7 +21645,7 @@
 											"top": 147,
 											"width": 155.25439453125,
 											"height": 13,
-											"text": "+displayRegisterSuccess()",
+											"text": "+displayRegisterInfo()",
 											"horizontalAlignment": 0
 										}
 									],
